@@ -1,0 +1,81 @@
+body {
+    background-color: #4a00e0;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'montserrat', sans-serif;
+    font-size: 50px;
+    color: #f0f0f0;
+}
+
+ul#album-inicial li:hover{
+    -webkit-transform:scale(1.5) ;
+    -webkit-transition: all 0.4s ease-in;
+}
+
+
+
+ul#album-inicial li#imagen1:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-inicial li#imagen2:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-inicial li#imagen3:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+
+ul#album-inicial li span {
+     opacity: 0;
+}
+
+ul#album-inicial  {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+    
+}
+
+ul#album-inicial li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, .4);
+}
+
+ul#album-inicial li#imagen1 {
+    background: url(../images/3c2fd25f-c.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 600px 398px;
+    background-color: #ffff;
+}
+
+ul#album-inicial li#imagen2 {
+    background: url(../images/imagens-amor.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 1000px 669px;
+    background-color: #ffff;
+}
+
+ul#album-inicial li#imagen3 {
+    background: url(../images/camera-profissional-apontada-para-paisagem.jpeg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 1680px 1050px;
+    background-color: #ffff;
+}
+
+  
