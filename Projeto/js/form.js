@@ -1,5 +1,8 @@
 const fields = document.querySelectorAll(['input.required'])
 
+// eliminar o bubble
+  //event.preventDefault
+
 //console.log(fields)
 
 function customValidation(event) {
@@ -7,7 +10,7 @@ function customValidation(event) {
 
 
     //logica para verificar se existem erros
-    function verifyErrors() {   //PODE HAVER UM ERRO AQUI  
+    function verifyErrors() {   
         let foundError = false;
 
        for(let error in field.validity){
