@@ -9,7 +9,7 @@ function customValidation(event) {
     const field = event.target
 
 
-    //logica para verificar se existem erros
+   
     function verifyErrors() {   
         let foundError = false;
 
