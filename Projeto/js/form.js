@@ -7,14 +7,14 @@ function customValidation(event) {
 
 
     //logica para verificar se existem erros
-    function verifyErrors() {   //pode haver um error aqui   
+    function verifyErrors() {   //PODE HAVER UM ERRO AQUI  
         let foundError = false;
 
        for(let error in field.validity){
            // se não for customError
            //então verificar se tem erro
            FoundError = error
-           if (error = "customError" && field.validity[erro]) {  //substitui o sinal de igual por diferente
+           if (error = "customError" && field.validity[erro]) {  //SUBSTITUI O SINAL DE IGUAL POR DIFERENTE
         }
 
        }
