@@ -17,19 +17,7 @@ function ValidateField(field) {
        
     }
 
-    function customMessage(typeError) {
-        const messages = {
-            text: {
-                valueMissing: "Por favor, preencha este campo"
-            },
-            email: {
-                valueMissing: "Email é obrigatório",
-                typeMismatch: "Por favor, preencha um email válido"
-            }
-        }
-
-        return messages[field.type][typeError]
-    }
+    
 
     function setCustomMessage(message) {
         const spanError = field.parentNode.querySelector("span.error")
@@ -72,7 +60,7 @@ function customValidation(event) {
 for( field of fields ){
     field.addEventListener("invalid", event => { 
         // eliminar o bubble
-        event.preventDefault()
+       // event.preventDefault()
 
         customValidation(event)
     })
